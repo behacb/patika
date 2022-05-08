@@ -1,0 +1,27 @@
+body{
+    background: black;
+}
+.clock{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 153, 51); 
+    font-size: 64px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;  
+}
+.text1{
+    position: relative;
+    text-align: center;
+    color: rgb(65, 0, 212);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}
+.text2{
+    position: relative;
+    text-align: center;
+    color: rgb(65, 0, 212);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz Javascript Ödevi</title>
+    <link rel="stylesheet" href="odev.css"/>
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+    crossorigin="anonymous"/>
+    <title>Kodluyoruz İsim Saat Ödevi</title>
+</head>
+<body class="bg-secondary">
+    <div class="text-center">
+        <div class="text1">
+            Merhaba,<span id="myName"></span>! Hoş Geldiniz!
+        </div>
+        <div id="myDateDisplay" class="clock" onload="showTime()"></div>
+        <div id="myClockDisplay" class="clock" onload="showTime()"></div>
+        <div class="text2">
+            tarihinde  Kodluyoruz Frontend Web Development Patikasındaki javascript bölümünün 1. ödevindesiniz            
+        </div>
+    </div>
+    <script src="clock.js"></script>
+    <script>
+        let isim = prompt("isim giriniz...")
+        document.getElementById("myName").innerHTML = isim;
+    </script>  
+   
+</body>
+</html>
