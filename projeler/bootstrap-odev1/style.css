@@ -1,0 +1,33 @@
+body{
+    background-color: #E9ECEF;
+}
+.nav{
+    background-color: rgb(45,55,55);
+}
+.h1{
+    margin-top: 70px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(255,45,88);
+}
+.p{
+    text-align: center;
+    color: rgb(105, 25, 185);
+}
+.h2{
+    text-align: center;
+    color:  rgb(128, 85, 0);
+}
+.li{
+    text-align: center;
+    list-style-position: inside;
+}
+.h3{
+    color:rgb(128, 85, 0);
+    margin-left: 80px;
+}
+.p2{
+    text-align: center;
+    margin-left: 80px;
+}
+
